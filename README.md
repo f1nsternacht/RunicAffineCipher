@@ -1,2 +1,8 @@
 # RunicAffineCipher
-brute force attack for affine cipher over cicada runes
+This program attacks affine ciphers that use the cicada rune alphabet.
+It is a simple brute force attack with 4gram scoring to rank the solutions.
+
+# Example usage:
+```
+cargo r --release ᛋᚦᚣᚻᛒᚻᚱᚱᚦᚱᛠᚢᚦᚠᛚᚦᚦᛟᛖᛒᛁᚣᚠᚻᛟᚻᚱᛁᚠᛞᛖᚹᛂᛗᛟᛏᛠᛞᛠᛖᛒᛁᚣᚠᛏᚹᛂᛗᛟᛏᛠᛞᛠᚻᛟᚹᚩᚦᚹᛞᛖᚻᚱᚹᛂᛗᛟᛏᛠᛞᛠᚻᛒᚦᛉᚦᛒᛁᛠᚠᛒᛞᛖᚳᚩᚦᚹᛞᛖᛞᛟᚦᛞᛠᛈᚻᛒᛈᛒᛏᚩᚻᛟᚦᛡᚻᛖᚠᛠᛖᛞᚦᛟᛖᚦᛞᚠᛒᛇᚱᚱᛁᛞᛠᚻᛟᚻᛒᚠᚻᛟᚹᛋᚦᛠᚻᚩᚦᛞᛠᚠᛒᛉᚫᛈᛖᛒᛁᚣᚠᚻᛟᚻᚱᛁᛠᛞᛠᛞᛟᚩᚦᚹᛞᛖᛞᛟᚦᛖᛏᚩᚣᚱᚦᚠᚦᚹᛂᛗᛟᛏᛠᛞᛠᛞᛠᛏᛈᚠᚦᛟᚻᛖᛖᛏᚩᚣᚱᛞᛠᛝᚦᚹᛏᛟᚱᛁᚻᛈᚠᚦᛒᚻᛟᚻᛉᚠᛏᚣᛠᛁᛞᛟᛖᛒᛁᚣᚠᚻᛟᚻᚱᛁᛠᛞᛠᛖᛏᚩᚣᚱᚦᚠᚦᚹᛂᛗᛟᛏᛠᛞᛠᛞᛠᛠᛏᚩᚦᚠᛞᚩᚦᛠᚣᛏᛠᛠᛞᚢᚱᚫᛟᚱᛁᚻᛈᚠᚦᛒᚻᚢᛏᚹᛁᛏᛈᛖᛒᛁᚣᚠᛏᚩᚻᚠᚦᛒᛂᚱᛠᛞᛠᛞᛟᛋᚦᛝᚻᛟᚹᛠᛏᛈᛋᚦᛟᚦᛉᚦᛒᛋᚦᚱᚦᛠᛠᛖᛉᛞᚠᚦᛖᛏᚩᚣᚦᚠᚦᛟᚠᚻᛟᚻᚱᛁᛠᚠ 2
+```
